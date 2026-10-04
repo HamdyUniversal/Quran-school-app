@@ -1,0 +1,32 @@
+# Dependencies and generated output
+node_modules/
+.expo/
+dist/
+web-build/
+coverage/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.p8
+*.jks
+*.mobileprovision
+
+# Native build output
+android/
+ios/
+.kotlin/
+
+# Tooling and logs
+.DS_Store
+.metro-health-check*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+supabase/.temp/
